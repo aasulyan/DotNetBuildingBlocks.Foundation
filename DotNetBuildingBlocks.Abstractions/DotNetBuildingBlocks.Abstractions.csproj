@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <RootNamespace>DotNetBuildingBlocks.Abstractions</RootNamespace>
+        <AssemblyName>DotNetBuildingBlocks.Abstractions</AssemblyName>
+
+        <PackageId>DotNetBuildingBlocks.Abstractions</PackageId>
+        <Title>DotNetBuildingBlocks.Abstractions</Title>
+        <Description>Shared contracts and base interfaces for the DotNetBuildingBlocks Foundation solution.</Description>
+        <Authors>Arsen Asulyan</Authors>
+        <PackageTags>dotnet;building-blocks;abstractions;contracts;foundation</PackageTags>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <RepositoryUrl>https://example.com/replace-with-your-repository-url</RepositoryUrl>
+        <PackageProjectUrl>https://example.com/replace-with-your-repository-url</PackageProjectUrl>
+        <RepositoryType>git</RepositoryType>
+
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <IncludeSymbols>true</IncludeSymbols>
+        <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+        <NoWarn>$(NoWarn);CS1591</NoWarn>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="README.md" Pack="true" PackagePath="\" />
+    </ItemGroup>
+
+</Project>
