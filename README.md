@@ -49,17 +49,6 @@ Current dependency flow:
 - `DotNetBuildingBlocks.Time` -> none
 - `DotNetBuildingBlocks.Serialization` -> `DotNetBuildingBlocks.Abstractions`, `DotNetBuildingBlocks.Primitives`
 
-## Implementation order
-
-The Foundation solution is implemented in this order:
-
-1. `DotNetBuildingBlocks.Abstractions`
-2. `DotNetBuildingBlocks.Primitives`
-3. `DotNetBuildingBlocks.Guards`
-4. `DotNetBuildingBlocks.Time`
-5. `DotNetBuildingBlocks.Serialization`
-
-That order keeps dependency direction clean and avoids high-level leakage into low-level packages.
 
 ## Build
 
@@ -79,19 +68,3 @@ dotnet test DotNetBuildingBlocks.Foundation.sln -c Release
 ```bash
 dotnet pack DotNetBuildingBlocks.Foundation.sln -c Release --no-build -o ./artifacts/packages
 ```
-
-## Future solution groups after Foundation
-
-Planned next logical groups:
-
-- Errors
-- Diagnostics
-- Web
-- Security
-- Messaging
-- Data
-- Platform
-- Application
-- Governance
-
-Those packages should build on Foundation without reversing dependency direction.
