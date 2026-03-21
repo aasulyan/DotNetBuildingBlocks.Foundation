@@ -5,25 +5,14 @@
         <RootNamespace>DotNetBuildingBlocks.Guards</RootNamespace>
         <AssemblyName>DotNetBuildingBlocks.Guards</AssemblyName>
 
-        <ImplicitUsings>enable</ImplicitUsings>
-        <Nullable>enable</Nullable>
+        <IsPackable>true</IsPackable>
 
         <PackageId>DotNetBuildingBlocks.Guards</PackageId>
         <Version>1.0.0</Version>
         <Title>DotNetBuildingBlocks.Guards</Title>
         <Description>Shared primitive building blocks for the DotNetBuildingBlocks Foundation solution.</Description>
-        <Authors>Arsen Asulyan</Authors>
         <PackageTags>dotnet;building-blocks;guards;foundation;result;error;value-object</PackageTags>
-
-        <PackageReadmeFile>README.md</PackageReadmeFile>
-        <RepositoryUrl>https://github.com/aasulyan/DotNetBuildingBlocks.Foundation</RepositoryUrl>
-        <PackageProjectUrl>https://github.com/aasulyan/DotNetBuildingBlocks.Foundation</PackageProjectUrl>
-        <RepositoryType>git</RepositoryType>
-        <PublishRepositoryUrl>true</PublishRepositoryUrl>
-
-        <GenerateDocumentationFile>true</GenerateDocumentationFile>
-        <IncludeSymbols>true</IncludeSymbols>
-        <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+        
         <NoWarn>$(NoWarn);CS1591</NoWarn>
     </PropertyGroup>
 

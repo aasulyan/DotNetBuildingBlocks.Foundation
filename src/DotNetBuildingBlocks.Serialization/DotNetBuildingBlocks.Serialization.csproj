@@ -5,30 +5,15 @@
         <RootNamespace>DotNetBuildingBlocks.Serialization</RootNamespace>
         <AssemblyName>DotNetBuildingBlocks.Serialization</AssemblyName>
 
-        <ImplicitUsings>enable</ImplicitUsings>
-        <Nullable>enable</Nullable>
-
+        <IsPackable>true</IsPackable>
+        
         <PackageId>DotNetBuildingBlocks.Serialization</PackageId>
         <Version>1.0.0</Version>
         <Title>DotNetBuildingBlocks.Serialization</Title>
         <Description>Shared System.Text.Json serialization rules, converters, and policies for the DotNetBuildingBlocks Foundation solution.</Description>
-        <Authors>Arsen Asulyan</Authors>
         <PackageTags>dotnet;building-blocks;serialization;json;system-text-json;foundation</PackageTags>
 
-        <PackageReadmeFile>README.md</PackageReadmeFile>
-        <RepositoryUrl>https://github.com/aasulyan/DotNetBuildingBlocks.Foundation</RepositoryUrl>
-        <PackageProjectUrl>https://github.com/aasulyan/DotNetBuildingBlocks.Foundation</PackageProjectUrl>
-        <RepositoryType>git</RepositoryType>
-        <PublishRepositoryUrl>true</PublishRepositoryUrl>
-
-        <GenerateDocumentationFile>true</GenerateDocumentationFile>
-        <IncludeSymbols>true</IncludeSymbols>
-        <SymbolPackageFormat>snupkg</SymbolPackageFormat>
         <NoWarn>$(NoWarn);CS1591</NoWarn>
     </PropertyGroup>
-
-    <ItemGroup>
-        <None Include="README.md" Pack="true" PackagePath="\" Visible="true" />
-    </ItemGroup>
 
 </Project>

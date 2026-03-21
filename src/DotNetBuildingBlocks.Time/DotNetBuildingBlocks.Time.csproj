@@ -5,25 +5,14 @@
         <RootNamespace>DotNetBuildingBlocks.Time</RootNamespace>
         <AssemblyName>DotNetBuildingBlocks.Time</AssemblyName>
 
-        <ImplicitUsings>enable</ImplicitUsings>
-        <Nullable>enable</Nullable>
+        <IsPackable>true</IsPackable>
 
         <PackageId>DotNetBuildingBlocks.Time</PackageId>
         <Version>1.0.0</Version>
         <Title>DotNetBuildingBlocks.Time</Title>
         <Description>Reusable time abstractions and UTC-safe helpers for the DotNetBuildingBlocks Foundation solution.</Description>
-        <Authors>Arsen Asulyan</Authors>
         <PackageTags>dotnet;building-blocks;time;clock;utc;foundation</PackageTags>
 
-
-        <RepositoryUrl>https://github.com/aasulyan/DotNetBuildingBlocks.Foundation</RepositoryUrl>
-        <PackageProjectUrl>https://github.com/aasulyan/DotNetBuildingBlocks.Foundation</PackageProjectUrl>
-        <RepositoryType>git</RepositoryType>
-        <PublishRepositoryUrl>true</PublishRepositoryUrl>
-
-        <GenerateDocumentationFile>true</GenerateDocumentationFile>
-        <IncludeSymbols>true</IncludeSymbols>
-        <SymbolPackageFormat>snupkg</SymbolPackageFormat>
         <NoWarn>$(NoWarn);CS1591</NoWarn>
     </PropertyGroup>
 
