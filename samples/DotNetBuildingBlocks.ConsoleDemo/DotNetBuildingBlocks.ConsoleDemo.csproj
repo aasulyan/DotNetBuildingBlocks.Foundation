@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="DotNetBuildingBlocks.Abstractions" />
+        <PackageReference Include="DotNetBuildingBlocks.Primitives" />
+        <PackageReference Include="DotNetBuildingBlocks.Guards" />
+        <PackageReference Include="DotNetBuildingBlocks.Time" />
+        <PackageReference Include="DotNetBuildingBlocks.Serialization" />
+    </ItemGroup>
+    
+</Project>
