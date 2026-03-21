@@ -2,18 +2,18 @@
 
     <PropertyGroup>
         <TargetFramework>net8.0</TargetFramework>
-        <RootNamespace>DotNetBuildingBlocks.Abstractions</RootNamespace>
-        <AssemblyName>DotNetBuildingBlocks.Abstractions</AssemblyName>
+        <RootNamespace>DotNetBuildingBlocks.Serialization</RootNamespace>
+        <AssemblyName>DotNetBuildingBlocks.Serialization</AssemblyName>
 
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
 
-        <PackageId>DotNetBuildingBlocks.Abstractions</PackageId>
+        <PackageId>DotNetBuildingBlocks.Serialization</PackageId>
         <Version>1.0.0</Version>
-        <Title>DotNetBuildingBlocks.Abstractions</Title>
-        <Description>Shared contracts and base interfaces for the DotNetBuildingBlocks Foundation solution.</Description>
+        <Title>DotNetBuildingBlocks.Serialization</Title>
+        <Description>Shared System.Text.Json serialization rules, converters, and policies for the DotNetBuildingBlocks Foundation solution.</Description>
         <Authors>Arsen Asulyan</Authors>
-        <PackageTags>dotnet;building-blocks;abstractions;contracts;foundation</PackageTags>
+        <PackageTags>dotnet;building-blocks;serialization;json;system-text-json;foundation</PackageTags>
 
         <PackageReadmeFile>README.md</PackageReadmeFile>
         <RepositoryUrl>https://github.com/aasulyan/DotNetBuildingBlocks.Foundation</RepositoryUrl>
@@ -21,18 +21,14 @@
         <RepositoryType>git</RepositoryType>
         <PublishRepositoryUrl>true</PublishRepositoryUrl>
 
-        <PackageLicenseExpression>MIT</PackageLicenseExpression>
-        <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
-
         <GenerateDocumentationFile>true</GenerateDocumentationFile>
         <IncludeSymbols>true</IncludeSymbols>
         <SymbolPackageFormat>snupkg</SymbolPackageFormat>
-
         <NoWarn>$(NoWarn);CS1591</NoWarn>
     </PropertyGroup>
 
     <ItemGroup>
-        <None Update="README.md" Pack="true" PackagePath="\" />
+        <None Include="README.md" Pack="true" PackagePath="\" Visible="true" />
     </ItemGroup>
 
 </Project>
