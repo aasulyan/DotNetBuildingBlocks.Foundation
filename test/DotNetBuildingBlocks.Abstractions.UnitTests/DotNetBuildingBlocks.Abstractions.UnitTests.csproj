@@ -17,7 +17,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\DotNetBuildingBlocks.Abstractions\DotNetBuildingBlocks.Abstractions.csproj" />
+      <ProjectReference Include="..\..\src\DotNetBuildingBlocks.Abstractions\DotNetBuildingBlocks.Abstractions.csproj" />
     </ItemGroup>
 
 </Project>

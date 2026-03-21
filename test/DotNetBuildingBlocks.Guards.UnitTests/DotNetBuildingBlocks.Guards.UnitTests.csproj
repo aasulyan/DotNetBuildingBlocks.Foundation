@@ -26,7 +26,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\DotNetBuildingBlocks.Guards\DotNetBuildingBlocks.Guards.csproj" />
+      <ProjectReference Include="..\..\src\DotNetBuildingBlocks.Guards\DotNetBuildingBlocks.Guards.csproj" />
     </ItemGroup>
 
 </Project>

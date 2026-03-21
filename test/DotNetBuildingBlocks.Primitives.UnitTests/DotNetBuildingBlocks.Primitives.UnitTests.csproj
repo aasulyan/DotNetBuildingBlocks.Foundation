@@ -19,7 +19,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\DotNetBuildingBlocks.Primitives\DotNetBuildingBlocks.Primitives.csproj" />
+      <ProjectReference Include="..\..\src\DotNetBuildingBlocks.Primitives\DotNetBuildingBlocks.Primitives.csproj" />
     </ItemGroup>
 
 </Project>
