@@ -1,4 +1,4 @@
-namespace DotNetBuildingBlocks.Abstractions.Abstractions;
+namespace DotNetBuildingBlocks.Abstractions;
 
 /// <summary>
 /// Represents the minimal shared contract for a result-like type.

@@ -1,4 +1,4 @@
-using DotNetBuildingBlocks.Abstractions.Abstractions;
+using DotNetBuildingBlocks.Abstractions;
 using FluentAssertions;
 using Xunit;
 

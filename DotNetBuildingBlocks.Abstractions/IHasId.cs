@@ -1,4 +1,4 @@
-namespace DotNetBuildingBlocks.Abstractions.Abstractions;
+namespace DotNetBuildingBlocks.Abstractions;
 
 /// <summary>
 /// Represents an object that exposes a strongly typed identifier.

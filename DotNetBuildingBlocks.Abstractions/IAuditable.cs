@@ -1,4 +1,4 @@
-namespace DotNetBuildingBlocks.Abstractions.Abstractions;
+namespace DotNetBuildingBlocks.Abstractions;
 
 /// <summary>
 /// Represents neutral audit information for create and update operations.

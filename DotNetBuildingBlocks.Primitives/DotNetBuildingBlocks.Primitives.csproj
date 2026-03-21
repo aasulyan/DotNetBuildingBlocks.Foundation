@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <RootNamespace>DotNetBuildingBlocks.Primitives</RootNamespace>
+        <AssemblyName>DotNetBuildingBlocks.Primitives</AssemblyName>
+
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+
+        <PackageId>DotNetBuildingBlocks.Primitives</PackageId>
+        <Version>1.0.0</Version>
+        <Title>DotNetBuildingBlocks.Primitives</Title>
+        <Description>Shared primitive building blocks for the DotNetBuildingBlocks Foundation solution.</Description>
+        <Authors>Arsen Asulyan</Authors>
+        <PackageTags>dotnet;building-blocks;primitives;foundation;result;error;value-object</PackageTags>
+
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <RepositoryUrl>https://github.com/aasulyan/DotNetBuildingBlocks.Foundation</RepositoryUrl>
+        <PackageProjectUrl>https://github.com/aasulyan/DotNetBuildingBlocks.Foundation</PackageProjectUrl>
+        <RepositoryType>git</RepositoryType>
+        <PublishRepositoryUrl>true</PublishRepositoryUrl>
+
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <IncludeSymbols>true</IncludeSymbols>
+        <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+        <NoWarn>$(NoWarn);CS1591</NoWarn>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\DotNetBuildingBlocks.Abstractions\DotNetBuildingBlocks.Abstractions.csproj" />
+    </ItemGroup>
+
+</Project>
