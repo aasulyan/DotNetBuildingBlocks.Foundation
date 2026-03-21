@@ -28,10 +28,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <None Remove="C:\Users\User\source\DotNetBuildingBlocks\DotNetBuildingBlocks.Foundation\src\DotNetBuildingBlocks.Primitives\README.md" />
-    </ItemGroup>
-
-    <ItemGroup>
         <ProjectReference Include="..\DotNetBuildingBlocks.Abstractions\DotNetBuildingBlocks.Abstractions.csproj" />
     </ItemGroup>
 

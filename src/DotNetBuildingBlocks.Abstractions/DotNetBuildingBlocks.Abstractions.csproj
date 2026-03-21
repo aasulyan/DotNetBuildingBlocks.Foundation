@@ -31,8 +31,4 @@
         <NoWarn>$(NoWarn);CS1591</NoWarn>
     </PropertyGroup>
 
-    <ItemGroup>
-      <None Remove="C:\Users\User\source\DotNetBuildingBlocks\DotNetBuildingBlocks.Foundation\src\DotNetBuildingBlocks.Abstractions\README.md" />
-    </ItemGroup>
-
 </Project>
