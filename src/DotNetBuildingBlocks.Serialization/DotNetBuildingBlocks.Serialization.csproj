@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <RootNamespace>DotNetBuildingBlocks.Serialization</RootNamespace>
+        <AssemblyName>DotNetBuildingBlocks.Serialization</AssemblyName>
+
+        <IsPackable>true</IsPackable>
+        
+        <PackageId>DotNetBuildingBlocks.Serialization</PackageId>
+        <Version>1.0.0</Version>
+        <Title>DotNetBuildingBlocks.Serialization</Title>
+        <Description>Shared System.Text.Json serialization rules, converters, and policies for the DotNetBuildingBlocks Foundation solution.</Description>
+        <PackageTags>dotnet;building-blocks;serialization;json;system-text-json;foundation</PackageTags>
+
+        <NoWarn>$(NoWarn);CS1591</NoWarn>
+    </PropertyGroup>
+
+</Project>

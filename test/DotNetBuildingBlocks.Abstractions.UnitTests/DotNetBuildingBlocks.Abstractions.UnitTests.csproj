@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <RootNamespace>DotNetBuildingBlocks.Abstractions.UnitTests</RootNamespace>
+        <AssemblyName>DotNetBuildingBlocks.Abstractions.UnitTests</AssemblyName>
+        <IsPackable>false</IsPackable>
+        <NoWarn>$(NoWarn);CS1591</NoWarn>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.NET.Test.Sdk" />
+        <PackageReference Include="xunit" />
+        <PackageReference Include="xunit.runner.visualstudio" />
+        <PackageReference Include="FluentAssertions" />
+        <PackageReference Include="coverlet.collector" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\src\DotNetBuildingBlocks.Abstractions\DotNetBuildingBlocks.Abstractions.csproj" />
+    </ItemGroup>
+
+</Project>

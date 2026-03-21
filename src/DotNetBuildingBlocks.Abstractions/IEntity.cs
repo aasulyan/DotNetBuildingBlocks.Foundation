@@ -1,4 +1,4 @@
-namespace DotNetBuildingBlocks.Abstractions.Abstractions;
+namespace DotNetBuildingBlocks.Abstractions;
 
 /// <summary>
 /// Represents a minimal persistence-neutral entity contract.

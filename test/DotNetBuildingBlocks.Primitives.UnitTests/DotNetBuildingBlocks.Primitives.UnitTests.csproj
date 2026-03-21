@@ -1,10 +1,12 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
         <TargetFramework>net8.0</TargetFramework>
-        <RootNamespace>DotNetBuildingBlocks.Abstractions.UnitTests</RootNamespace>
-        <AssemblyName>DotNetBuildingBlocks.Abstractions.UnitTests</AssemblyName>
+        <RootNamespace>DotNetBuildingBlocks.Primitives.UnitTests</RootNamespace>
+        <AssemblyName>DotNetBuildingBlocks.Primitives.UnitTests</AssemblyName>
         <IsPackable>false</IsPackable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
         <NoWarn>$(NoWarn);CS1591</NoWarn>
     </PropertyGroup>
 
@@ -17,7 +19,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\DotNetBuildingBlocks.Abstractions\DotNetBuildingBlocks.Abstractions.csproj" />
+      <ProjectReference Include="..\..\src\DotNetBuildingBlocks.Primitives\DotNetBuildingBlocks.Primitives.csproj" />
     </ItemGroup>
 
 </Project>
